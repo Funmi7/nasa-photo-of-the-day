@@ -20,18 +20,11 @@ function App() {
     })
   }, []);
 
-  // if(!nasaData.title){
-  //   return console.log('loading');
-  // }
-  // else{
-  // console.log(nasaData.title);
-  // }
-
   return (
     <div className="App">
       {/* <p>
         Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        app! Have fun!
       </p> */}
       <TopContent/>
       <Image image={nasaData.url}/>

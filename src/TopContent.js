@@ -4,8 +4,8 @@ import React from "react";
 function TopContent() {
     return(
         <div>
-            <h1>NASA Photo Of The Day!</h1>
-            <p>Here is the Photo of the day from NASA</p>
+            <h1 className="mainHeading">Picture Of The Day! 🚀</h1>
+            <p>Here is the Picture of the day. Awesome right?!</p>
         </div>
     )
 }

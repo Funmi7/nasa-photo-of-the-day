@@ -5,7 +5,7 @@ function Image(props) {
 
     
     return (
-        <div>
+        <div className = "image">
             <img src={image}/>
         </div>
     )

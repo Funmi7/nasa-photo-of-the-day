@@ -5,8 +5,12 @@ const {title, date, description} = props;
 
 return (
     <div>
-        <h3>{title}</h3>
+        <div className="title-date-container">
+        <h3>Title: {title}</h3>
+        <h3>Date:</h3>
+        </div>
         <p>{date}</p>
+        <h3>Description of Image</h3>
         <p>{description}</p>
     </div>
 )
