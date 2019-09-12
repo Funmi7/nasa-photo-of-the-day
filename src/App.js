@@ -5,6 +5,8 @@ import TopContent from "./TopContent";
 import Image from "./Image";
 import MainContent from "./MainContent";
 import styled from "styled-components";
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 const StyledAppDiv = styled.div`
@@ -28,6 +30,8 @@ function App() {
   }, []);
 
   return (
+    <>
+    <Header/>
     <StyledAppDiv className="App">
       {/* <p>
         Read through the instructions in the README.md file to build your NASA
@@ -41,6 +45,8 @@ function App() {
         description={nasaData.explanation}/>
       {/* <Image image={nasaData.hdurl}/> */}
     </StyledAppDiv>
+    <Footer/>
+    </>
   );
 }
 
