@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  width: 700px;
+   max-width: 100%;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -30,4 +33,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mainHeading {
+  color: rgb(34, 158, 131);
+}
+
+.image {
+  width:100%;  
+  /* margin: 0 auto; */
+}
+
+img {
+  max-width: 100%;
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title-date-container h3 {
+  color: rgb(20, 97, 80);
+}
+
+.description-header {
+  color: rgb(34, 158, 131);
 }
