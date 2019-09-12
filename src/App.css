@@ -1,7 +1,7 @@
-.App {
+/* .App {
   width: 700px;
    max-width: 100%;
-  /* text-align: center; */
+  text-align: center;
   margin: 0 auto;
 }
 
@@ -41,7 +41,6 @@
 
 .image {
   width:100%;  
-  /* margin: 0 auto; */
 }
 
 img {
@@ -60,4 +59,4 @@ img {
 
 .description-header {
   color: rgb(34, 158, 131);
-}
+} */

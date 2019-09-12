@@ -4,7 +4,14 @@ import axios from 'axios';
 import TopContent from "./TopContent";
 import Image from "./Image";
 import MainContent from "./MainContent";
+import styled from "styled-components";
 
+
+const StyledAppDiv = styled.div`
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+`;
 
 function App() {
   const [nasaData, setNasaData] = useState({});
@@ -21,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <StyledAppDiv className="App">
       {/* <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun!
@@ -33,7 +40,7 @@ function App() {
         date={nasaData.date}
         description={nasaData.explanation}/>
       {/* <Image image={nasaData.hdurl}/> */}
-    </div>
+    </StyledAppDiv>
   );
 }
 
